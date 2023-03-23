@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>QUIZ</h1>
+
+    <script language="javascript" src="script.js"></script>
+    <form name="quiz" id="quiz">
+      <div>
+        <p>1] What is the capital of India?</p>
+        <p>
+          <input type="radio" name="question1" value="New Delhi" />A) New Delhi
+        </p>
+        <p><input type="radio" name="question1" value="Mumbai" />B) Mumbai</p>
+        <p><input type="radio" name="question1" value="Chennai" />C) Chennai</p>
+        <p><input type="radio" name="question1" value="Kolkata" />D) Kolkata</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>2] How many centuries did Sachin Tendulkar make?</p>
+        <p><input type="radio" name="question2" value="Seventy" />A) 75</p>
+        <p><input type="radio" name="question2" value="Eighty" />B) 25</p>
+        <p><input type="radio" name="question2" value="Ninty" />C) 50</p>
+        <p><input type="radio" name="question2" value="Hundred" />D) 100</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>3] In which continent does Japan lie?</p>
+        <p><input type="radio" name="question3" value="Europe" />A) Europe</p>
+        <p><input type="radio" name="question3" value="Asia" />B) Asia</p>
+        <p>
+          <input type="radio" name="question3" value="Australia" />C) Australia
+        </p>
+        <p><input type="radio" name="question3" value="Africa" />D) Africa</p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>4] Is Chennai in Tamil Nadu?</p>
+        <p><input type="radio" name="question4" value="YES" />A) Yes</p>
+        <p><input type="radio" name="question4" value="NO" />B) No</p>
+        <p>
+          <input type="radio" name="question4" value="SOMETIMES" />C) Sometimes
+        </p>
+        <p>
+          <input type="radio" name="question4" value="CANTSAY" />D) Can't say
+        </p>
+      </div>
+      <br /><br />
+
+      <div>
+        <p>5] What product does Samsung make?</p>
+        <p><input type="radio" name="question5" value="Dresses" />A) Dresses</p>
+        <p><input type="radio" name="question5" value="Bags" />B) Bags</p>
+        <p><input type="radio" name="question5" value="Mobiles" />C) Mobiles</p>
+        <p><input type="radio" name="question5" value="Cars" />D) Cars</p>
+      </div>
+      <br /><br />
+
+      <input type="button" name"" value="I'm done!" onclick="check()"><br />
+      <br />
+    </form>
+    <p id="result"></p>
+    <a href="index.html"
+      ><button
+        class="button"
+        id="quiz"
+        style="margin: 10px 10px 40px 10px; float: right"
+      >
+        Quiz Page
+      </button></a
+    >
+  </body>
+</html>
